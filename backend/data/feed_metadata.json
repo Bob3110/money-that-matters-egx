@@ -1,0 +1,54 @@
+[
+  {
+    "feed_name": "news",
+    "last_success_at": "2026-09-18T17:28:20.984869+00:00",
+    "last_attempt_at": "2026-09-18T17:28:20.986559+00:00",
+    "status": "live",
+    "item_count": 1,
+    "last_error": "Connection timed out",
+    "_id": "1"
+  },
+  {
+    "feed_name": "test_feed_live",
+    "last_success_at": "2026-09-18T17:28:19.430705+00:00",
+    "last_attempt_at": "2026-09-18T17:28:19.430705+00:00",
+    "status": "live",
+    "item_count": 15,
+    "last_error": null,
+    "_id": "2"
+  },
+  {
+    "feed_name": "test_feed_stale",
+    "last_success_at": "2026-09-17T15:28:19.432472+00:00",
+    "status": "live",
+    "item_count": 8,
+    "_id": "3"
+  },
+  {
+    "feed_name": "insiders",
+    "last_success_at": "2026-09-12T15:25:39.614404+00:00",
+    "last_attempt_at": "2026-09-12T15:25:39.614404+00:00",
+    "status": "live",
+    "item_count": 3,
+    "last_error": null,
+    "_id": "4"
+  },
+  {
+    "feed_name": "institutional",
+    "last_success_at": "2026-09-12T15:25:47.749337+00:00",
+    "last_attempt_at": "2026-09-12T15:25:47.749337+00:00",
+    "status": "live",
+    "item_count": 16,
+    "last_error": null,
+    "_id": "5"
+  },
+  {
+    "feed_name": "macro",
+    "last_success_at": "2026-09-12T15:25:51.050868+00:00",
+    "last_attempt_at": "2026-09-12T15:25:51.050868+00:00",
+    "status": "live",
+    "item_count": 2,
+    "last_error": null,
+    "_id": "6"
+  }
+]
