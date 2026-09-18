@@ -1,8 +1,8 @@
 [
   {
     "feed_name": "news",
-    "last_success_at": "2026-09-18T18:10:04.843804+00:00",
-    "last_attempt_at": "2026-09-18T18:10:04.846409+00:00",
+    "last_success_at": "2026-09-18T19:42:01.880988+00:00",
+    "last_attempt_at": "2026-09-18T19:42:01.883669+00:00",
     "status": "live",
     "item_count": 1,
     "last_error": "Connection timed out",
@@ -10,8 +10,8 @@
   },
   {
     "feed_name": "test_feed_live",
-    "last_success_at": "2026-09-18T18:10:03.055766+00:00",
-    "last_attempt_at": "2026-09-18T18:10:03.055766+00:00",
+    "last_success_at": "2026-09-18T19:42:00.316147+00:00",
+    "last_attempt_at": "2026-09-18T19:42:00.316147+00:00",
     "status": "live",
     "item_count": 15,
     "last_error": null,
@@ -19,7 +19,7 @@
   },
   {
     "feed_name": "test_feed_stale",
-    "last_success_at": "2026-09-17T16:10:03.058324+00:00",
+    "last_success_at": "2026-09-17T17:42:00.318316+00:00",
     "status": "live",
     "item_count": 8,
     "_id": "3"
