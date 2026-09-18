@@ -31,9 +31,12 @@ class DocumentCollectionFallback:
             self._docs = []
 
     def _save(self):
-        os.makedirs(os.path.dirname(self.filepath), exist_ok=True)
-        with open(self.filepath, "w", encoding="utf-8") as f:
-            json.dump(self._docs, f, ensure_ascii=False, indent=2)
+        try:
+            os.makedirs(os.path.dirname(self.filepath), exist_ok=True)
+            with open(self.filepath, "w", encoding="utf-8") as f:
+                json.dump(self._docs, f, ensure_ascii=False, indent=2)
+        except OSError:
+            pass
 
     async def find(self, filter_query: Optional[Dict[str, Any]] = None, sort: Optional[List[tuple]] = None, limit: int = 0):
         async with self._lock:
